@@ -22,10 +22,11 @@ body{
 /*----- header imagen -----*/
 header{
     width: 100%;
-    background: url('../img/newmain.jpg') #281a0c;
+    background: url('../img/newmain.jpg') #eaeaea;
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
+    opacity: 0.7;
 }
 
 
@@ -40,7 +41,7 @@ header .menu{
 }
 
 header .menu a{
-    color: #ede6db;
+    color: #e0d8cc;
     font-size: 20px;
     font-weight: 300;
     display: inline-block;
@@ -65,7 +66,6 @@ header .textos .nombre{
     font-style: italic;
     font-size: 50px;
     font-weight: 600;
-    text-align: center;
 }
 
 header .textos .nombre span{ 
@@ -76,7 +76,7 @@ header .textos .nombre span{
 header .textos h3{
     font-size: 25px;
     font-weight: 300;
-    /*font-style: italic;*/
+    font-style: italic;
 }
 
 /* ------ main ----- */
@@ -84,4 +84,104 @@ header .textos h3{
 .main{
     background: url('../img/white_carbon.png');
     background-repeat: repeat;
+}
+
+.main .acerca-de .contenedor{
+    overflow: visible;
+    position: relative;
+}
+
+.main .acerca-de .foto{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0; /* To ensure the image stays behind the text */
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+.main .acerca-de .foto img{
+    vertical-align: top;
+    width: 100%;
+}
+
+.main .acerca-de article{
+    background: #fff;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: 150px;
+    z-index: 1; /* Para que el texto quede delante de la imagen*/
+    float: right;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.main .acerca-de article h3{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main .acerca-de article p{
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.main .precios {
+    padding-top: 525px;
+    margin-bottom: 50px;
+}
+
+.main .precios .titulo{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main .precios .contenedor-precios,
+.main .precios .contenedor-precios2{
+    border: 1px solid #000000;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.main .precios article{
+    width:50%;
+    float:left;
+    padding: 20px;
+}
+
+.main .precios .categoria{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .precios .regalar{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted #000;
+    overflow: hidden; /* Para que el texto no se salga del contenedor*/
+}
+
+.main .precios .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;/* Para que el texto quede a la izquierda*/
+}
+
+.main .precios .precio{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;/* Para que el texto quede a la izquierda*/
+}
+
+.main .precios .descripcion{
+    font-size: 20px;
+    color:#676767;
+    clear: both; /* Para que el texto quede debajo de los dos anteriores*/
 }
