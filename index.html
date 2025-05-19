@@ -10,14 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css"
-    <title>Detalles para Ocasiones Especiales</title>
 </head>
 
 <body>
     <header>
         <div class="contenedor">
             <nav class="menu">
-                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-acerca-de">Nosotros</a>
                 <a href="#" id="btn-precios">Precios</a>
                 <a href="#" id="btn-detalles">Detalles</a>
                 <a href="#" id="btn-ubicacion">Ubicación</a>
@@ -99,37 +98,38 @@
         </section>
         <section class="detalles" id="detalles">
             <div class="foto">
-                <img src="/img/1.jpg" alt="$5000">
+                <img src="img/1.jpg" alt="$5000">
             </div>
             <div class="foto">
-                <img src="/img/2.jpg" alt="$5000">
+                <img src="img/2.jpg" alt="$5000">
             </div>
             <div class="foto">
-                <img src="/img/3.jpg" alt="$5000">
+                <img src="img/3.jpg" alt="$5000">
             </div>
             <div class="foto">
-                <img src="/img/4.jpg" alt="$5000">
+                <img src="img/4.jpg" alt="$5000">
             </div>
             <div class="foto">
-                <img src="/img/5.jpg" alt="$5000">
+                <img src="img/5.jpg" alt="$5000">
             </div>
             <div class="foto">
-                <img src="/img/6.jpg" alt="$5000">
+                <img src="img/6.jpg" alt="$5000">
             </div>
             <div class="foto">
-                <img src="/img/7.jpg" alt="$5000">
+                <img src="img/7.jpg" alt="$5000">
             </div>
             <div class="foto">
-                <img src="/img/8.jpg" alt="$5000">
+                <img src="img/8.jpg" alt="$5000">
             </div>
         </section>
         <section class="ubicacion" id="ubicacion">
             <div class="contenedor">
                 <h3 class="titulo">Ubicación</h3>
                 <div class="direccion">
+                    <p class="ciudad">Bogotá, Colombia</p>
                     <p class="calle">Av. Siempre viva 742,Springfield</p>
                     <p class="telefono">671346323</p>
-                    <p class="correo">detalles [arroba] shop.com</p>
+                    <p class="correo">detalles@shop.com</p>
                 </div>
                 <div class="horarios">
                     <h4>Horarios</h4>
@@ -143,45 +143,52 @@
         </section>        
     </section>
     <footer>
-        <div class="contenedor">
+        <div class="redes-sociales">
             <div class="socialmedia">
                         <!-- WhatsApp -->
-                <div style="display: flex; align-items: center; gap: 10px;">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
-                        <style>@keyframes chatMotion3{0%,to{transform:translateY(0)}50%{transform:translateY(-1px)}}</style>
-                        <path fill="#0A0A30" fill-rule="evenodd" d="M12.121 6.74a5.25 5.25 0 00-4.414 8.093l.177.274-1.057 1.986 2.244-.82.256.162A5.25 5.25 0 1012.12 6.74zm-6.75 5.25a6.75 6.75 0 113.422 5.874l-2.52.876a.95.95 0 01-1.115-1.162l1.115-2.216a6.722 6.722 0 01-.902-3.372z" clip-rule="evenodd"/>
-                        <circle cx="9" cy="12" r="1" fill="#265BFF" style="animation:chatMotion3 .8s ease-in-out infinite"/>
-                        <circle cx="12" cy="12" r="1" fill="#265BFF" style="animation:chatMotion3 .8s ease-in-out infinite;animation-delay:.3s"/>
-                        <circle cx="15" cy="12" r="1" fill="#265BFF" style="animation:chatMotion3 .8s ease-in-out infinite;animation-delay:.5s"/>
-                    </svg>
-                    <span>WhatsApp</span>
-                </div>
-
+                <a class="whatsapp" href="https://wa.me/573165349999" target="_blank">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                            <style>@keyframes chatMotion3{0%,to{transform:translateY(0)}50%{transform:translateY(-1px)}}</style>
+                            <path fill="#0A0A30" fill-rule="evenodd" d="M12.121 6.74a5.25 5.25 0 00-4.414 8.093l.177.274-1.057 1.986 2.244-.82.256.162A5.25 5.25 0 1012.12 6.74zm-6.75 5.25a6.75 6.75 0 113.422 5.874l-2.52.876a.95.95 0 01-1.115-1.162l1.115-2.216a6.722 6.722 0 01-.902-3.372z" clip-rule="evenodd"/>
+                            <circle cx="9" cy="12" r="1" fill="#265BFF" style="animation:chatMotion3 .8s ease-in-out infinite"/>
+                            <circle cx="12" cy="12" r="1" fill="#265BFF" style="animation:chatMotion3 .8s ease-in-out infinite;animation-delay:.3s"/>
+                            <circle cx="15" cy="12" r="1" fill="#265BFF" style="animation:chatMotion3 .8s ease-in-out infinite;animation-delay:.5s"/>
+                        </svg>
+                        <span>WhatsApp</span>
+                    </div>
+                </a>
                 <!-- Facebook -->
-                <div style="display: flex; align-items: center; gap: 10px;">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
-                        <style>@keyframes loop{to{stroke-dashoffset:10}}</style>
-                        <path stroke="#0A0A30" stroke-width="1.5" d="M10.805 8.441a11 11 0 011.48 2.46c.7 1.31 3.73 6.25 5.46 6.23 2 0 2.19-2.39 2.07-3.92-.17-2-.68-4.41-2.36-5.65-1.88-1.37-3.77 0-4.88 1.62-1.22 1.86-1.94 3.91-3.3 5.67-.77 1-1.88 2.14-3.28 2-2.86-.13-1.99-5.12-1.36-6.81a4.81 4.81 0 012.55-2.81 3 3 0 013.62 1.21z" style="animation:loop 1.5s infinite cubic-bezier(.65,.05,.36,1)" stroke-dashoffset="100" stroke-dasharray="100"/>
-                    </svg>
-                    <span>Facebook</span>
-                </div>
-
+                <a class="facebook" href="https://wa.me/573165349999" target="_blank"> 
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                            <style>@keyframes loop{to{stroke-dashoffset:10}}</style>
+                            <path stroke="#0A0A30" stroke-width="1.5" d="M10.805 8.441a11 11 0 011.48 2.46c.7 1.31 3.73 6.25 5.46 6.23 2 0 2.19-2.39 2.07-3.92-.17-2-.68-4.41-2.36-5.65-1.88-1.37-3.77 0-4.88 1.62-1.22 1.86-1.94 3.91-3.3 5.67-.77 1-1.88 2.14-3.28 2-2.86-.13-1.99-5.12-1.36-6.81a4.81 4.81 0 012.55-2.81 3 3 0 013.62 1.21z" style="animation:loop 1.5s infinite cubic-bezier(.65,.05,.36,1)" stroke-dashoffset="100" stroke-dasharray="100"/>
+                        </svg>
+                        <span>Facebook</span>
+                    </div>
+                </a>
                 <!-- Instagram -->
-                <div style="display: flex; align-items: center; gap: 10px;">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
-                        <style>@keyframes instagram{0%,40%{transform:scale(.4)}20%{transform:scale(.6)}60%{transform:scale(.8)}to{transform:scale(1)}}</style>
-                        <rect width="14.5" height="14.5" x="4.75" y="4.75" stroke="#0A0A30" stroke-width="1.5" rx="4.25"/>
-                        <rect width="6" height="6" x="9" y="9" stroke="#265BFF" stroke-width="1.5" rx="3" style="animation:instagram 2s linear infinite both;transform-origin:center center"/>
-                        <circle cx="16" cy="8" r="1" fill="#0A0A30"/>
-                    </svg>
-                    <span>Instagram</span>
-                </div>
+                <a class="instagram" href="https://wa.me/573165349999" target="_blank">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                            <style>@keyframes instagram{0%,40%{transform:scale(.4)}20%{transform:scale(.6)}60%{transform:scale(.8)}to{transform:scale(1)}}</style>
+                            <rect width="14.5" height="14.5" x="4.75" y="4.75" stroke="#0A0A30" stroke-width="1.5" rx="4.25"/>
+                            <rect width="6" height="6" x="9" y="9" stroke="#265BFF" stroke-width="1.5" rx="3" style="animation:instagram 2s linear infinite both;transform-origin:center center"/>
+                            <circle cx="16" cy="8" r="1" fill="#0A0A30"/>
+                        </svg>
+                        <span>Instagram</span>
+                    </div>
+                </a>
             </div> 
-            <div class="copyright">
-                <p>Copyright Detalles Shop @ 2024</p>
-            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Detalles Shop 2025 powered by DC</p>
         </div>
     </footer>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/efectos.js"></script>
+    <script src="js/parallax.js"></script>
 </body>
 </html>
 
